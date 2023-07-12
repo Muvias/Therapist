@@ -1,6 +1,6 @@
 export function About() {
     return (
-        <section className="w-3/5 px-16 py-20 mx-auto my-6 rounded-lg bg-white">
+        <section className="w-3/5 px-16 py-20 mx-auto mt-12 rounded-lg bg-white">
             <h2 className="text-5xl mb-12">Sobre Mim</h2>
 
             <div className="flex gap-8">
