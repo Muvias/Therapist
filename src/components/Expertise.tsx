@@ -1,9 +1,9 @@
 export function Expertise() {
     return (
-        <section className="w-3/5 px-16 py-20 mx-auto mt-12 rounded-lg bg-white">
-            <h2 className="text-5xl mb-12">Especialidades de Atendimento</h2>
+        <section className="md:w-3/5 px-8 md:px-16 py-20 mt-8 mx-auto md:mt-12 rounded-lg bg-white">
+            <h2 className="text-3xl md:text-5xl mb-12 w-[90%]">Especialidades de Atendimento</h2>
 
-            <div className="flex">
+            <div className="flex flex-col md:flex-row gap-4 md:gap-0">
                 <div>
                     <h3 className="text-2xl mb-4">Depressão</h3>
                     <ul className="flex flex-col gap-2 list-disc w-3/4 ml-6">

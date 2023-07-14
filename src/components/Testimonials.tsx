@@ -1,7 +1,7 @@
 export function Testimonials() {
     return (
-        <section className="flex flex-col justify-centermt-12 px-[25rem] py-12 rounded-lg bg-white">
-            <h2 className="text-5xl mb-12">Depoimentos de Clientes</h2>
+        <section className="flex flex-col justify-centermt-12 px-8 md:px-[25rem] py-12 rounded-lg mt-8 md:mt-0 bg-white">
+            <h2 className="text-3xl md:text-5xl mb-12">Depoimentos de Clientes</h2>
 
             <div className="flex flex-wrap gap-4">
                 <div className="flex-1 p-4 bg-blue-100 rounded">

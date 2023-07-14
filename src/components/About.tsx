@@ -1,9 +1,9 @@
 export function About() {
     return (
-        <section className="w-3/5 px-16 py-20 mx-auto mt-12 rounded-lg bg-white">
-            <h2 className="text-5xl mb-12">Sobre Mim</h2>
+        <section className="md:w-3/5 px-8 md:px-16 py-20 mx-auto mt-8 md:mt-12 rounded-lg bg-white">
+            <h2 className="text-3xl md:text-5xl mb-12">Sobre Mim</h2>
 
-            <div className="flex gap-8">
+            <div className="flex flex-col md:flex-row gap-8">
                 <div>
                     <h3 className="text-2xl mb-4">Formação</h3>
                     <p className="opacity-80">Graduado em Psicologia pela Universidade de São Paulo, com especialização em terapia cognitivo-comportamental.</p>
